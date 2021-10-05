@@ -6,20 +6,28 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Document</title>
+  <title>URL_SHORTENER</title>
   <link rel="stylesheet" href="/stylesheets/bootstrap.css">
+  <link rel="stylesheet" href="/stylesheets/style.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.1/css/all.min.css">
   <script src="https://kit.fontawesome.com/4b13537802.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
 
-  <nav class="navbar navbar-dark bg-dark">
-    <div class="container">
-      <a class="navbar-brand" href="#">URL_shortener</a>
+  <div class="container" style="
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    ">
+    <h2>URL shortener</h2>
+    <div class="picture mt-2" style="width: 20rem;">
+      <img src="https://assets-lighthouse.alphacamp.co/uploads/image/file/16716/ExportedContentImage_00.png"
+        class="img-thumbnail" alt="圖片">
     </div>
-  </nav>
-  <!-- partial templates will replace the part of "body" here -->
+  </div>
+
+
   {{{ body }}}
 
   <script src="/javascripts/jquery-3.3.1.js"></script>
