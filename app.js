@@ -5,6 +5,7 @@ const bodyParser = require('body-parser')
 //const routes = require('./routes')
 //require('./config/mongoose')
 const app = express()
+const createShortURL = require('./shortURL')
 
 app.engine('handlebars', exphbs({ defaultLayout: 'main', extname: '.handlebars' }))
 app.set('view engine', 'handlebars')
